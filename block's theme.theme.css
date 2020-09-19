@@ -1,0 +1,309 @@
+/* //META{ "name": "block theme", "description": "自分用"} *//**/
+:root{
+    --unread: #7289da;
+    --gradation1: #3e70dd;
+    --gradation2: #b377f3;
+    --gradation3: rgb(39, 66, 124);
+    --gradation4: rgb(114, 77, 155);
+    --border1: #7289da;
+}
+
+/* コンテキストメニュー */
+.da-menu{
+    /* background-color: #202225; */
+    box-shadow:  18px 18px 9px #1a1c1fee;
+    margin: 12px;
+    transition:.3s
+}
+.da-menu:hover{box-shadow:  9px 9px 9px #1a1c1fee;}
+.item-1Yvehc.da-item.extendedContextMenu{
+    display: none;
+}
+.barFill-23-gu-.da-barFill{
+    background: linear-gradient(150deg,var(--gradation1),var(--gradation2));
+}
+/* ----------------------------------------------------- */
+
+/* 邪魔なアレ */
+.buttons-cl5qTG.da-buttons.container-3npvBV.da-container{
+    top : 0;
+}
+.wrapper-2aW0bm .emojiButton-jE9tXC.button-1ZiXG9, .emojiSeparator-10VgEJ.separator-42rNt0{
+    display:none;
+}
+.wrapper-2aW0bm{
+    background: #0000;
+    height: 21px;
+    box-shadow: 0 0;
+}
+.wrapper-2aW0bm:hover{
+    box-shadow: 0 0 !important;
+}
+.button-1ZiXG9{
+    padding: 0;
+}
+.button-1ZiXG9:hover{
+    background-color: #0000 !important;
+}
+.button-1ZiXG9:active{
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+.button-1ZiXG9.selected-LCBEAU{
+    background-color: #0000 !important;
+}
+.button-1ZiXG9 svg{
+    margin: 0;
+    height: 18px;
+}
+
+/* メッセージホバー */
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover{
+    background-color: var(--background-primary);
+}
+
+/* 新規バー */
+.divider-3_HH5L.da-divider.divider-JfaTT5.da-divider.isUnread-3Ef-o9.da-isUnread span{
+    display: none;
+}
+
+/* 文字数カウンター */
+.counter-uAzbKp.charCounter-7fw40k.charcounter.normal{
+    background: var(--background-secondary-alt);
+    padding: 1px 6px;
+    border-radius: 9px;
+}
+
+/* 日にちバー */
+.divider-3_HH5L.da-divider.hasContent-1_DUdQ.da-hasContent.divider-JfaTT5.da-divider.hasContent-1cNJDh.da-hasContent{
+    margin: 6px;
+}
+
+/* embed */
+.embedWrapper-lXpS3L.da-embedWrapper.embedFull-2tM8--.embed-IeVjo6.da-embedFull.da-embed.markup-2BOw-j.da-markup{
+    border-radius: 9px;
+    border:none;
+    /* border-top: .1px solid var(--gradation1); */
+    box-shadow: -3px -3px 6px #3f4249 inset, 3px 3px 6px #27292e inset;
+}
+
+/* 画像 */
+.backdrop-1wrmKB.da-backdrop{
+    backdrop-filter: blur(3px);
+    background-color:#0009 !important;
+    opacity: 1 !important;
+}
+
+/* メッセージ */
+.scrollableContainer-2NUZem{
+    background:var(--background-thirdly);
+    margin-bottom: 27px;
+    box-shadow: 1px 1px 3px #292a2e, -2px -2px 3px #43464d;
+    transition:0.3s;
+}
+
+.scrollableContainer-2NUZem:focus-within{
+    box-shadow: 3px 3px 6px #292a2e , -3px -3px 6px #43464d ;
+}
+
+/* ----------------------------------------------------- */
+
+/* ヘッダー */
+.content-yTz4x3.da-content::before{display: none;}
+.children-19S4PO:after{display:none}
+.title-3qD0b-.da-title.container-1r6BKw.da-container.themed-ANHk51.da-themed{
+    background:var(--background-secondary);
+}
+
+/* ----------------------------------------------------- */
+
+/* メンバーリスト - 役職 */
+.membersGroup-v9BXpm.da-membersGroup.container-2ax-kl.da-container{
+    text-align: center;
+    height: 32px;
+    padding: 7px 0px 0px;
+    margin: 9px 9px 0;
+    border-radius: 30px;
+    border: 1px solid var(--background-modifier-accent);
+}
+
+/* メンバーリスト - ポップアップ */
+.footer-1fjuF6.da-footer{display:none}
+.headerPlaying-j0WQBV.header-2BwW8b.size16-14cGz5.da-headerPlaying.da-header.da-size16, .headerSpotify-zpWxgT, .headerNormal-T_seeN.header-2BwW8b.size16-14cGz5.da-headerNormal.da-header.da-size16{
+    background: transparent;
+}
+.scroller-2FKFPG.da-scroller.systemPad-3UxEGl.da-systemPad.bodyInner-245q0L.da-bodyInner{
+    background: #0003;
+}
+.noArrow-2foL9g.da-noArrow.noShadow-3pu20z.da-noShadow.popout-2iWAc-.da-popout.popoutRight-1veHKi.arrowAlignmentTop-1yftWI{
+    backdrop-filter: blur(12px) !important;
+}
+.userPopout-3XzG_A.da-userPopout{
+    background: linear-gradient(150deg,var(--gradation3),var(--gradation4));
+    box-shadow:none;
+    box-shadow: 0 2px 12px 3px #0004;
+    opacity: .9;
+    backdrop-filter: blur(12px) !important;
+}
+.bodyInner-245q0L{
+    padding-right: 7px;
+}
+.note-3kmerW textarea:focus{
+    background:#0003;
+}
+/* アイコン ニューモーフィズム */
+.avatarWrapper-3H_478{
+    box-shadow: 0px -3px 6px 1px #5b73af, 0px 3px 6px 1px #162549;
+    transition: .3s;
+}
+.avatarWrapper-3H_478:hover{
+    box-shadow: none;
+}
+.avatarHint-1qgaV3{
+    display:none;
+}
+.userPopout-3XzG_A.da-userPopout .mask-1l8v16 foreignObject{
+    mask:none;
+    border-radius: 180px;
+
+}
+.userPopout-3XzG_A.da-userPopout .pointerEvents-2zdfdO{
+    display: none;
+}
+
+/* ----------------------------------------------------- */
+
+/* チャンネルリスト */
+.sidebar-2K8pFh.da-sidebar{
+    border-radius: 0;
+}
+.header-2o-2hj.da-header{
+    border: 0px !important;
+    box-shadow: none !important;
+    background: none;
+}
+.container-PNkimc.da-container, .panels-j1Uci_.da-panels{background: var(--background-secondary);}
+.container-PNkimc.da-container{}
+.content-3YMskv.da-content{padding-right:4px;}
+/* チャンネルリスト-text */
+.content-3at_AU.da-content{border-radius: 36px;transition: .3s;}
+.wrapper-1ucjTd{margin-bottom: 3px;}
+.content-3at_AU.da-content:hover{
+    box-shadow: 1px 1px 3px #202225, -1px -1px 3px #43464d;
+}
+.name-3_Dsmg.da-name{transition: .3s;}
+.modeSelected-1zApJ_ .content-3at_AU.da-content{
+    /* background: linear-gradient(150deg,var(--gradation1),var(--gradation2)); */
+    background: linear-gradient(175deg,#2a2b30, #3b3d44);
+    box-shadow: 1px 1px 3px #202225, -1px -1px 3px #43464d;
+    transition: .3s;
+}
+.modeSelected-1zApJ_ .name-3_Dsmg, .modeSelected-1zApJ_ .icon-1_QxNX.da-icon{
+    color: #fff !important;
+    transition: .3s;
+}
+
+/* チャンネルリスト-voice */
+.modeConnected-2IEL4z .content-3at_AU.da-content{
+    box-shadow:  1px 1px 3px #202225, -1px -1px 3px #43464d, 0.5px 0.5px 1px 1px inset var(--gradation1),-0.5px -0.5px 1px 1px inset var(--gradation2);
+    transition: .3s;
+}
+.modeConnected-2IEL4z .content-3at_AU.da-content:hover{
+    background: none;
+    box-shadow: 1px 1px 3px #202225, -1px -1px 3px #43464d,  0.5px 0.5px 1px 1px inset var(--gradation3),-0.5px -0.5px 1px 1px inset var(--gradation4);
+}
+.modeConnected-2IEL4z .name-3_Dsmg, .modeConnected-2IEL4z .icon-1_QxNX.da-icon{
+    color: var(--channels-default) !important;
+}
+.liveSmall-1dy2uA.live-vBWnV6{font-size:0;padding:0;}
+
+/* chl-未読マーク */
+.unread-3zKkbm.da-unread{
+    background:var(--unread);
+    margin-top: 0px;
+    top: 6px;left: 15px;
+    width: 9px;height: 9px;
+    border-radius: 30px;
+}
+.name-3_Dsmg.da-name{color: var(--channels-default);}
+
+/* ----------------------------------------------------- */
+
+/* サーバーリスト-アイコン */
+.bd-selected .blobContainer-239gwq.da-blobContainer{
+    animation: color-shift-border 6s ease infinite alternate;
+    border-radius: 18px;
+}
+.bd-selected .blobContainer-239gwq.da-blobContainer img{
+    border-radius: 18px;
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    border-radius: 18px;
+}
+.expandedGuilds-1JMD4M.da-expandedGuilds{
+    padding-top: 6px;
+    margin-top: -6px;
+}
+
+/* サーバーリスト-未読 */
+.bd-selected .pill-31IEus{display:none;}
+.item-2hkk8m.da-item{visibility: hidden;}
+.bd-unread .pill-31IEus.da-pill.wrapper-sa6paO.da-wrapper{
+    width: 18px;height:18px;
+    top: -3px;left: 9px;
+    padding-left: 6px;
+    z-index: 100;
+}
+.bd-unread .item-2hkk8m.da-item{
+    visibility: visible !important;
+    background:var(--unread);
+    box-shadow: 0 0 0 3px var(--background-tertiary);
+    width: 9px;height:9px !important;
+    margin-left: 0;
+    border-radius: 30px;
+}
+.wrapper-21YSNc.da-wrapper .item-2hkk8m.da-item{
+    box-shadow: 0 0 0 3px var(--background-secondary) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes color-shift-border {
+    0% { box-shadow: 0px 0px 0px 3px var(--gradation1); }
+    100% { box-shadow: 0px 0px 0px 3px var(--gradation2); }
+}
+
+@keyframes color-shift-background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+/* .listItem-2P_4kh.da-listItem.bd-guild.bd-unread .pill-31IEus.da-pill.wrapper-sa6paO.da-wrapper{*/
+/*    top: -2px;*/
+/*    left: 10px;*/
+/*    z-index: 0;*/
+/*    width: 52px !important;*/
+/*    height: 52px !important;*/
+/*}*/
+/*.listItem-2P_4kh.da-listItem.bd-guild.bd-unread .pill-31IEus.da-pill.wrapper-sa6paO.da-wrapper .item-2hkk8m{*/
+/*    margin:0px !important;*/
+/*    width: 52px !important;*/
+/*    height: 52px !important;*/
+/*    background:#fff9;*/
+/*    border-radius: 300px;*/
+/*} */
