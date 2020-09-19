@@ -1,0 +1,275 @@
+/* //META{ "name": "OwO", "description": "自分用"} *//**/
+/* :root{--bgimg: url(https://podofilia.net/wp-content/uploads/2019/05/hentai-gifs-12.gif);} */
+/* :root{--bgimg: url(https://images7.alphacoders.com/939/939554.jpg);} */
+/* :root{--bgimg: url(https://pbs.twimg.com/media/Eg5YKQpVgAAKjFj?format=jpg&name=large);} */
+:root{--bgimg: url(https://cutewallpaper.org/21/nyan-cat-wallpaper/Nyan-Cat-Wallpapers-Free-Download-PixelsTalk.Net.jpg);}
+html *{font-family: "BIZ UDPゴシック" !important;}
+.markup-2BOw-j a{color: #7289DA;text-decoration: none !important;transition:.3s;}
+.markup-2BOw-j a:hover{color: #00b0f4;}
+
+.bg-h5JY_x{
+    background: var(--bgimg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    filter: blur(6px);
+}
+/* 要素透過 */
+.wrapper-1Rf91z,.scroller-2TZvBN,.sidebar-2K8pFh,.container-PNkimc,.panels-j1Uci_,.chat-3bRxxu,.members-1998pB, .members-1998pB>div{
+    background: transparent;
+}
+
+.scroller-2LSbBU::-webkit-scrollbar{background: transparent;}
+
+/* ウインドウバー */
+.withFrame-haYltI{
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    height: 9px;
+}
+/* Discordロゴ */
+.wordmarkWindows-1v0lYD{display: none;}
+.winButton-iRh8-Z{top: 0;height: 15px;padding-top: 3px;}
+.winButton-iRh8-Z svg{margin-top: -3px;}
+
+/* サーバーバー - 背景 */
+.scroller-2TZvBN{
+    background:#202225e3;
+    backdrop-filter: blur(63px);
+}
+
+/* サーバーバー - アイコン */
+.da-blobContainer .da-icon{opacity: .3;transition: .3s;}
+.da-blobContainer:hover .da-icon{opacity: .72;}
+.da-blobContainer .da-icon, .da-blobContainer:hover .da-icon, .wrapper-1BJsBx .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{border-radius: 30px;transition: .3s;}
+.bd-selected .da-icon{border-radius: 30px;opacity: 1 !important;}
+.pill-31IEus{display: none;}
+.childWrapper-anI2G9{color: #85898E;}
+.bd-unread .da-blobContainer{box-shadow: 0 0 0 1.5px #7289DA;border-radius: 30px;}
+
+/* サーバーバー - フォルダ */
+.da-expandedFolderBackground{
+    background: #9991;
+    backdrop-filter: blur(6px);
+}
+.folder-21wGz3{background: #232427;}
+
+/* サイドバー - 角丸 */
+.platform-win .sidebar-2K8pFh{border-radius: 0;}
+
+/* サイドバー - ヘッダー */
+.container-2Rl01u{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    backdrop-filter: blur(6px);
+    height: 46px;
+    padding-top: 9px;
+}
+
+/* サイドバー - 背景 */
+.sidebar-2K8pFh{
+    position: relative;
+    background: #202225c0;
+}
+.scroller-2wx7Hm{backdrop-filter: blur(18px);background: transparent;}
+.header-2o-2hj{box-shadow: none;}
+.scroller-2wx7Hm .content-3YMskv.da-content{margin-top: 54px;margin-bottom: 180px;padding-right: 6px;}
+.scroller-2wx7Hm::-webkit-scrollbar{display: none;}
+
+/* サイドバー - コンテンツ */
+.modeSelected-1zApJ_ .content-3at_AU{background: #fff1}
+.wrapper-1ucjTd:hover .content-3at_AU{background: #9991}
+.modeSelected-1zApJ_ .icon-1_QxNX,.modeSelected-1zApJ_:hover .icon-1_QxNX{color:#fff;}
+.modeUnread-1zpFdA .icon-1_QxNX{color:#7289DA}.modeUnread-1zpFdA .name-3_Dsmg{color:#7289DA;}
+.unread-3zKkbm{display: none;}
+
+/* サイドバー - プロフィール */
+.panels-j1Uci_{
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    backdrop-filter: blur(12px);
+    background: transparent;
+}
+
+/* サイドバー - 未読 */
+.unreadTop-73gZ2_{top:54px;}
+.unread-1xRYoj{
+    opacity: 1;
+    box-shadow: none;
+    backdrop-filter: blur(6px);
+    background: #7289da99;
+}
+
+/* 新着メッセージ */
+.newMessagesBar-265mhP{
+    top: 63px;
+    border-radius: 30px;
+    background: #7289da99;
+    backdrop-filter: blur(6px);
+    box-shadow: none;
+    transition: .3s;
+}
+.newMessagesBar-265mhP:hover{background: #7289dacc;}
+.newMessagesBar-265mhP:active{padding-top: 0;}
+
+.jumpToPresentBar-G1R9s6{
+    bottom: 72px;
+    background: #4F545C99;
+    backdrop-filter: blur(6px);
+    border-radius: 30px;
+    padding-bottom: 0;
+}
+
+/* チャット - ヘッダー */
+.container-1r6BKw.themed-ANHk51{
+    position: absolute;
+    background:#202225c0 !important;
+    backdrop-filter: blur(9px);
+    height: 54px;
+    padding-top: 9px;
+}
+.children-19S4PO:after{
+    display: none;
+}
+
+/* チャット - 入力欄 */
+.form-2fGMdU{
+    margin-top:-60px;
+    background:transparent;
+    z-index: 3;
+}
+.channelTextArea-rNsIhG{
+    background:transparent;
+    backdrop-filter: blur(9px);
+    bottom: 3px;
+    z-index: 30;
+}
+.scrollableContainer-2NUZem{
+    background: #9991;
+    transition: .3s;
+}
+.scrollableContainer-2NUZem:focus-within{
+    background: #9993;
+}
+/* チャット - 入力中 */
+.form-2fGMdU:before{display: none;}
+.base-gE7OpD{
+    border-radius: 3px;
+    bottom: 1px;
+    background:transparent;
+    backdrop-filter: blur(6px);
+}
+/* チャット - 下高さ */
+.scrollerSpacer-avRLaA{height: 69px;}
+
+/* チャット - メッセージ */
+.scroller-2LSbBU::-webkit-scrollbar{display: none;}
+.content-yTz4x3{
+    background: #202225cc;
+}
+
+/* チャット - embed */
+.embedFull-2tM8--{
+    background: #20222566;
+    border: none;
+    border-radius: 0;
+    border-left: 1px solid;
+    backdrop-filter: blur(9px);
+}
+
+/* チャット - more */
+.buttons-cl5qTG.da-buttons.container-3npvBV.da-container{top : 0;}
+.wrapper-2aW0bm .emojiButton-jE9tXC.button-1ZiXG9, .emojiSeparator-10VgEJ.separator-42rNt0{display:none;}
+.wrapper-2aW0bm{
+    background: transparent;
+    height: 21px;
+    box-shadow: 0 0;
+}
+.wrapper-2aW0bm:hover{box-shadow: 0 0 !important;}
+.button-1ZiXG9{padding: 0;}
+.button-1ZiXG9:hover{background-color: transparent !important;}
+.button-1ZiXG9:active{
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+.button-1ZiXG9.selected-LCBEAU{background-color: transparent !important;}
+.button-1ZiXG9 svg{
+    margin: 0;
+    height: 18px;
+}
+
+/* チャット - 日時 */
+.da-divider{margin: 9px 0 !important;}
+.content-1o0f9g{background: transparent;backdrop-filter: blur(18px);}
+
+/* メンバーリスト - MarginTop */
+.membersGroup-v9BXpm:first-of-type{margin-top: 38px;}
+/* メンバーリスト - 背景 */
+.members-1998pB, .members-1998pB>div{
+    backdrop-filter: blur(36px);
+}
+
+/* 検索結果 */
+.da-searchResultsWrap{
+    margin-top: 54px;
+    background: transparent;
+    backdrop-filter: blur(36px);
+}
+/* 検索結果 - ヘッダー */
+.da-searchHeader{
+    background:#202225ee;
+    position: absolute;
+    backdrop-filter: blur(9px);
+}
+/* 検索結果 - 一覧 */
+.scroller-3GIiMh{
+    padding-top: 54px;
+}
+.channelName-1JRO3C{background:transparent;}
+.da-hit{
+    background:#20222566 !important;
+    border:none !important;
+    box-shadow: none !important;
+    backdrop-filter: blur(9px);
+}
+.searchResult-9tQ1uo:before, .searchResult-9tQ1uo::after{display: none;}
+.da-after, .da-before{filter:blur(1.5px);}
+.da-expanded .da-after, .da-expanded .da-before{filter: blur(0px);}
+
+/* プロフィール - ポップアップ */
+.da-userPopout .da-footer{display: none;}
+.da-userPopout .da-headerNormal{background:transparent !important;}
+.da-userPopout .da-body{background:transparent !important;}
+.da-userPopout{
+    background:#20222599;
+    backdrop-filter: blur(18px);
+    box-shadow: 0 0 9px#202225ee;
+}
+.da-userPopout .da-activity{background: transparent;}
+.da-userPopout .da-headerPlaying{background:linear-gradient(#7289DA99, #0000);}
+.da-userPopout .da-headerSpotify{background: linear-gradient(#1db95466, #0000);}
+.da-userPopout .da-headerStreaming{background: linear-gradient(#59369581, #0000);}
+
+/* プロフィール */
+.da-backdrop{background: transparent !important;}
+.root-SR8cQa{background: #20222599;backdrop-filter: blur(18px);}
+/* .da-topSectionNormal{
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    z-index: 1;
+}
+.activity-1ythUs{
+    backdrop-filter: blur(6px);
+
+}
+.root-SR8cQa .da-body{
+    position: relative;
+    height: 630px;
+    background: transparent;
+}
+.root-SR8cQa .da-userInfoSectionHeader{margin-top:234px;} */
